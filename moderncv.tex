@@ -1,0 +1,112 @@
+\documentclass[11pt,a4paper,roman]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[orange]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[grey]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.9]{geometry}
+\usepackage{amsmath}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Govind}
+\familyname{C }%$\vert _{\textit{CS13M020}}$}
+%\title{Govind C}               % optional, remove the line if not wanted
+\address{Room No:316,Jamuna Hostel,IIT Madras,Chennai-36,Tamil Nadu}{INDIA}    % optional, remove the line if not wanted
+\mobile{(91) 8682927216/9947879879}                    % optional, re%move the line if not wanted
+%% \phone{phone (optional)}                      % optional, remove the line if not wanted
+%% \fax{fax (optional)}                          % optional, remove the line if not wanted
+\email{govindc27@gmail.com}                      % optional, remove the line if not wanted
+%\homepage{www.eggwall.com}                % optional, remove the line if not wanted
+\extrainfo{\textbf{Roll no:CS13M020}} % optional, remove the line if not wanted
+\photo[64pt]{iit}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Roll no:CS13M020}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+
+\maketitle	
+
+\section{Education}
+\cventry{2013-Present}{M.Tech}{Indian Institute of Technology}{Chennai, India}{}{Masters in Computer Science and Engineering{- }{7 CGPA} }
+\cventry{2012}{B.Tech}{MES College of Engineering-University of Calicut}{Kerala, India}{}{Bachelors in Information Technology {- } {59.42 \%} }
+\cventry{2007}{XII}{Govt. Model Boys HSS Kunnamkulam}{Kerala, India}{}{Computer Science Group, Kerala State Board{- } {73.50 \%}}
+\cventry{2005}{X}{Bethany St.Johns HSS,Kunnamkulam}{Kerala, India}{}{{}SSLC, Kerala State Board {-} {89.47 \%}}
+
+\section{Professional Experience}
+\cventry{January,2013-July,2013}{Junior Programmer}{ZimmerSOFT}{Cochin, Kerala, India}{}{Worked in two projects in Python/Django
+\begin{itemize}%
+\item One was an intern-ship portal for start-up client based out in US and other one was a recruitment solution website.
+\end{itemize}}
+
+\section{Projects}
+\cvline{Title}{\emph{Algorithms and Hardness for computing the rotation distance of the binary tree}}
+\cvline{Guide}{Dr.Jayalal Sarma, Asst.Professor, IIT Madras, Chennai, India.}
+\cvline{Description}{Rotation Distance is minimal number of rotations needed to transform one tree into another of same size. Rotations provide a simple mechanism for balancing trees while preserving their underlying order. There are no known polynomial-time algorithms for computing rotation distance,thus trying to formulate an algorithm with better bound and possible implementation. Ongoing.}
+
+\cvline{Title}{\emph{Malayalam to CD theory conversion}}
+\cvline{Instructor/Course}{Dr.Deepak Khemani, Professor, IIT Madras. Knowledge Representation \& Reasoning.}
+\cvline{Description}{The CD theory defines a semantic base for knowledge representation. It aims at understanding natural language stories. We selected Indian General Election 2014 as domain. Created a parser for processing malayalam sentences and convert it to CD representation which in turn can be converted into any other languages. Implemented using Java.}
+\cvline{}{\url{https://github.com/amigozgovi/malayalamToCd}}
+
+\cvline{Title}{\emph{GIT+ - porting projects to Git }}
+\cvline{Guide}{Dr.Raju.C.K, HOD,IT Dept. MESCE-University of Calicut, Kerala, India.}
+\cvline{Description}{We developed a tool to support portability across version control systems specifically to Git. Core idea was to transform from formats associated to other version control systems to that of Git. The implementation was in C++ .}
+\cvline{}{\url{https://github.com/amigozgovi/gitplus}}
+
+
+\cvline{Title}{\emph{AGROTECH- a website on agriculture}}
+\cvline{Guide}{Jasmin.T.Jose, Asst.Professor,IT Dept. MESCE-University of Calicut, Kerala, India.}
+\cvline{Description}{An interactive website designed using HTML,CSS and implemented using PHP,MySQL database(WAMP Server bundle). Aim was to develop a platform to promote IT in agriculture, assist one in getting or sharing information or service on agriculture she or he wants. Started for one village, but has the capability to scale to more upon need.}
+\cvline{}{\url{https://github.com/amigozgovi/agrotech}}
+
+\section{Computer skills}
+\cvcomputer{Good}{C/C++,Python/Django,\LaTeX,PHP}{Experience}{Java,Shell,MySQL,HTML,CSS}
+\cvcomputer{Passable}{Perl,JavaScript,Joomla,PostgreSQL}{Pursuing}{MATLAB}
+\cvcomputer{Platforms/Tools}{Linux, Android, Web,MAC,Eclipse}{Concepts}{Algorithms,Data Structures}
+
+
+\section{Awards and Activities}
+\cventry{Awards}{Rashtrapathi Scout Award}{The Bharat Scouts and Guides}{India}{}{Received Rashtrapthi Scout award from the President of India in 2005.}
+\cventry{Exams}{Gate 2013 }{All India Rank:\textbf{595}}{}{}{}
+\cventry{Sports}{Basket Ball Player}{HS and HSS team}{}{}{Played in district level basket ball tournaments.}
+\cventry{Cultural}{Participant}{Intra/Inter-College}{}{}{Organised and participated in various cultural and technical events.}
+
+\section{Positions of Responsibility}
+\cventry{Club/Scout}{Troop Leader}{$47^{th}$ Scout Troop-Bethany}{Chavakkad Educational District}{}{}
+\cventry{Association}{Secretary}{Students Association of IT, MESCE}{}{}{}
+\cventry{Conference}{Volunteer}{WALCOM 2014-Eighth International workshop on Algorithms and computation}{}{}{Worked in hospitality and stage management team of 6-day event held in IITM.}
+
+
+\section{Interests}
+\cvcomputer{Software}{Linux and Open Source}{Mobile}{Android and its development}
+\cvcomputer{Health}{Running,Swimming,Bicycling,Basketball}{Travel}{Driving,Trekking,Taste trekker}
+\cvcomputer{Books}{Automobile Magazines}{others}{Internet,Music,Movies,Events}
+
+\section{Personal Details}
+\cvcomputer{DOB}{30-December-1989}{Sex/Nationality}{Male/Indian}
+\cvcomputer{Marital Status}{Single}{Languages}{English,Malayalam,Hindi,Tamil}
+\cvcomputer{Permanent Address}{GovindVihar,Chalissery PO,Palakkad,Kerala-679536,INDIA}{Home Phone}{+91-466-2256162}
+
+\section{Declaration}
+\cvline{}{I hereby declare that the information furnished above is true to the best of my knowledge.}
+
+\end{document}
